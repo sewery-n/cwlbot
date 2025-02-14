@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "CWLBOT",
+  "version": "2.0",
+  "permissions": [
+    "runtime",
+    "cookies",
+    "activeTab",
+    "storage",
+    "tabs",
+    "scripting",
+    "https://*.margonem.pl/*",
+    "http://*.margonem.pl/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://*.margonem.pl/"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

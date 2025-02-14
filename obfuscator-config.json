@@ -1,0 +1,14 @@
+{
+    "compact": true,
+    "controlFlowFlattening": false,
+    "deadCodeInjection": false,
+    "stringArray": false,  
+    "stringArrayEncoding": [],
+    "stringArrayThreshold": 0,  
+    "disableConsoleOutput": false,
+    "renameGlobals": false,
+    "selfDefending": false,
+    "splitStrings": false,  
+    "transformObjectKeys": false,
+    "reservedNames": ["page", "keyboard", "evaluate", "press", "click"]
+}

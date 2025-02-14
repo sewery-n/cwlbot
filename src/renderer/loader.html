@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWLBOT - Loading</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #0a192f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .loader {
+            text-align: center;
+        }
+        .loader-text {
+            font-size: 48px;
+            font-weight: bold;
+            color: #64ffda;
+            letter-spacing: 8px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        .loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #233554;
+            border-top: 5px solid #64ffda;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-text">CWLBOT</div>
+        <div class="loader-spinner"></div>
+    </div>
+</body>
+</html>
+
